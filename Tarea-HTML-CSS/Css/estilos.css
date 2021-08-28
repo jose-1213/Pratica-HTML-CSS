@@ -1,0 +1,276 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+                                    /*Posiscion de las tres letras*/
+header nav ul{
+    list-style: none;
+    padding-right: 200px;
+    background-color: #A4B1B7;
+    height: 110px;
+    text-align: right;
+    font-family: verdana, Arial, Helvetica;
+    font-weight: bold;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+header ul li{
+    display: inline; 
+}
+
+header a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    text-emphasis: none;
+    padding-left: 15px;
+    text-align: right;
+    padding-right: 25px; 
+}
+                                     /*Posiscion de las tres letras*/
+
+
+
+                                    /*Este es el logo*/
+#logo{
+    /*anchura del logo*/
+    width: 300px;
+    /*Altura del logo*/
+    height: 100;
+    /*es foltante a la derecha se puede agregar entre la imagen*/
+    float: left;
+    /*tiene un margen de izquierda a derecha de 200 pixeles*/
+    margin-left: 200px;
+    /*no afecta las otras cajas si se llega a modificar*/
+    box-sizing: border-box;
+}
+                                    /*Este es el logo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     /*Centrado de la pagina*/
+section h1{
+    /*Posicion de la imagen*/
+    position:relative;
+    /* Posicion de la letra en la imagen*/
+    top: 200px;
+    /*Espacio de la letra sobre la imagen*/
+    margin-left:400px;
+    /*Altura de la imagen*/
+    height: 5px;
+    /*No se salga de su margen*/
+    box-sizing: border-box;
+    /*Tipo de letra*/
+    font-family: 'Times New Roman';
+    /*Para ponerlo en negrita*/
+    font-weight: bold;
+    /*Tamaño de la letra*/
+    font-size: 33px;
+}
+
+
+
+#portada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 490px;
+}
+                                     /*centrado de la pagina*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*Controla el color tamaño, etc de Tratamientos Destacados y Mas sobre Nosotros*/
+/*Centro de la pagina*/
+body section h2{
+    color: #026fff;
+    border: #1b2127;
+    width: 500px;
+    /*da espacio al margen de izquierda a derecha*/
+    margin-left: 390px;
+    /*Da espacio entre las letras*/
+    line-height: 50pt;
+}
+        /*Controla el color tamaño, etc de Tratamientos Destacados y Mas sobre Nosotros*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*h3 es ortodoncia de adulto y restauraciones esteticas*/
+div h3{
+    line-height: 40pt;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    /*Separacion de las letras*/
+}
+        /*h3 es ortodoncia de agulto y restauraciones esteticas*/
+
+
+
+
+
+
+
+
+
+
+        /*Para agregar cajas o margenes*/
+.testbox1{
+    margin: 25px;
+    float:none;
+    border-radius: 15px;
+    border: black 2px solid;
+    margin-left: 400;
+    margin-right: 400;
+    padding: 5px;
+    /*sirva para dar el margen de arriba a bajo de la caja*/
+    margin-top: 1px;
+    max-width: 100%;
+}
+.testbox2{
+    margin: 25px;
+    float:none;
+    border-radius: 15px;
+    border: black 2px solid;
+    margin-left: 400;
+    margin-right: 400;
+    padding: 5px;
+    /*sirva para dar el margen de arriba a bajo de la caja*/
+    margin-top: 1px;
+    max-width: 100%;
+}
+        /*Para agregar cajas o margenes*/
+
+
+
+
+
+
+
+
+
+        /*fecha y descripcion de la imagen de lo odontologico*/
+div article p {
+    max-width: 100%;
+}
+        /*fecha y descripcion de la imagen de lo odontologico*/
+
+
+
+
+
+
+
+
+
+
+        /*Separación de la imagen*/
+div article img{
+
+    line-height: 30pt;
+    margin-top: 10pt;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+        /*Separación de la imagen*/
+    
+
+
+
+
+
+
+
+
+
+
+
+        /*Contenedores*/
+.item{
+    justify-content: flex-start;
+    margin: auto;
+    width: 500px;
+    padding: 2em;
+    font-family: 'Times New Roman';
+    
+    
+}
+
+button{
+    margin-top: 8px;
+    color: #0099cc;
+    background: transparent;
+    border: 5px solid #0099cc;
+    border-radius: 4px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s ;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+ .contactanos button{
+     border:2px solid black;
+     color: #1b2127;
+     background-color: white;
+ }
+
+
+
+.contactanos{
+    float: none;
+    padding: 1em;
+    background-color:#A4B1B7;
+    margin:auto;
+    flex-direction: column;
+    line-height: 25pt;
+    font-size: 20px;
+    
+}
